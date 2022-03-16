@@ -30,6 +30,7 @@ npm run local
 Finally you can run your server by executing in the root path:
 ```bash
 cd ..            # if you have followed all the previous steps
+export FLASK_APP=website/app.py
 flask create_all # Create database and tables
 flask run        # Start the server
 ```
